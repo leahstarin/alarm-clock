@@ -1,0 +1,29 @@
+@import "reset";
+
+/* Bootstrap Variables */
+$icon-font-path: "../bower_components/bootstrap-sass/assets/fonts/bootstrap/";
+
+/* Import Bootstrap */
+@import "../bower_components/bootstrap-sass/assets/stylesheets/bootstrap";
+
+
+#timerBar{
+  border-bottom: solid 2px black;
+  padding-left: 20%;
+  padding-right: 50px;
+
+}
+
+
+#clock{
+  font-style: oblique;
+  font-size:700%;
+
+}
+
+.body{
+  display: inline-block;;
+  padding-left: 30%;
+  padding-top: 50px;
+  width: 327px;
+}
